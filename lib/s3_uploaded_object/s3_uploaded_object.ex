@@ -6,5 +6,7 @@ defmodule EctoS3.S3UploadedOjbect do
 
   schema "s3_uploaded_objects" do
     field :name, :string
+
+    timestamps()
   end
 end
